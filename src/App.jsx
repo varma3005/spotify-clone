@@ -26,7 +26,18 @@ function App() {
     <a className="navbar-brand" href="#">
       SPOTIFY
     </a>
-    
+    <button
+      onClick={getTracks}
+      className="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+   >
+      <span className="navbar-toggler-icon" />
+   </button>
     <div className="collapse navbar-collapse deflex justify-content-center" id="navbarSupportedContent">
      
       
@@ -37,7 +48,7 @@ function App() {
           placeholder="Search"
           aria-label="Search"
         />
-        <button onClick={getTracks} className="btn btn-outline-success" type="submit">
+        <button onClick={getTracks} className="btn btn-outline-success mt-4" type="submit">
           Search
         </button>
      

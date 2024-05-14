@@ -48,7 +48,7 @@ function App() {
           placeholder="Search"
           aria-label="Search"
         />
-        <button onClick={getTracks} className="btn btn-outline-success mt-4" type="submit">
+        <button onClick={getTracks} className="btn btn-outline-success" type="submit">
           Search
         </button>
      

@@ -1,0 +1,13 @@
+*{
+    background-color: black;
+}
+.card{
+    color: white;
+}
+.navbar-brand{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(50, 241, 50);
+    font-weight: 600;
+
+    
+}
